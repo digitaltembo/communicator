@@ -1,0 +1,11 @@
+{
+  "name": "communicator",
+  "title": "communicator",
+  "id": "jid1-GRgfir0bVGTh2g",
+  "description": "an add-on to let people style their web-based communication",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "dependencies": ["menuitems", "addon-sdk"]
+      
+}
