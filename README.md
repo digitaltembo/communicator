@@ -27,6 +27,8 @@ How it works
 ---
 Under the hood, communicator uses ![highlight.js](https://highlightjs.org/) to manage the code highlighting, ![KaTeX](http://khan.github.io/KaTeX/) to manage the LaTeX, and ![PageDown](https://code.google.com/p/pagedown/wiki/PageDown) to parse markdown. Upon arriving at facebook, it begins to causually check if there are any fleurons on the page. When it finds one, it begins scanning the messages every few seconds, finding ones with fleurons, and parsing them. The parsing is accomplished relatively quickly with a single scan through and a trie-like decision tree or something, I don't know much about algorithms but I was pretty happy with that. 
 
+The actual code that I wrote is in data/firefoxAddon.js (this code is included with every facebook page when you have the plugin) and lib/main.js
+
 Going Forward
 ---
 1. Improve markdown rendering, get rid of extra spaces
